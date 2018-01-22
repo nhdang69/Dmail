@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/overload"/>
+        <RelativeLayout
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/th_ng_tin_b_t_bu_c"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilhoten"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="#808080"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.example.diorous.lightnovel.CustomView.CustomEdittextClear
+                    android:id="@+id/edthoten"
+                    android:textColor="@color/black"
+                    android:hint="@string/hoten"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:validateText="true"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilemail"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="#808080"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.example.diorous.lightnovel.CustomView.CustomEdittextClear
+                    android:id="@+id/edtemail"
+                    android:textColor="@color/black"
+                    android:hint="@string/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:validateEmail="true"
+                    app:validateText="true"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilusername"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="#808080"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.example.diorous.lightnovel.CustomView.CustomEdittextClear
+                    android:id="@+id/edtusername"
+                    android:textColor="@color/black"
+                    android:hint="@string/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:validateText="true"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilpassword"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="#808080"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.example.diorous.lightnovel.CustomView.CustomVisibleEdittext
+                    android:id="@+id/edtpassword"
+                    android:textColor="@color/black"
+                    android:hint="@string/Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:validatePassword="true"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btndangky"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dangky"/>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

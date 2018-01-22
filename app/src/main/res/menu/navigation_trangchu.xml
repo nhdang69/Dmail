@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mhome"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/trang_chu">
+    </item>
+    <item android:id="@+id/msangtac"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_mode_edit_white_24dp"
+        android:title="@string/sa_ng_ta_c"/>
+    <item android:id="@+id/mmaydich"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_library_books_white_24dp"
+        android:title="@string/convert"/>
+    <item android:title="@string/danh_sa_ch"
+        android:id="@+id/mdanhsach"
+        android:icon="@drawable/ic_view_list_white_24dp"
+        app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_account_circle_white_24dp"
+        android:id="@+id/maccount"
+        android:title="@string/taikhoan"
+        app:showAsAction="ifRoom"/>
+</menu>

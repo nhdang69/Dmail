@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00675b</color>
+    <color name="colorPrimaryLight">#52c7b8</color>
+    <color name="colorAccent">#52c7b8</color>
+    <color name="colorSecondary">#52c7b8</color>
+    <color name="actionbarColor">#00665D</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_gray">#a9a9a9</color>
+    <color name="fragmentbg">#EEEEEE</color>
+    <color name="dangnhap">#1D5268</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#CCffffff</color>
+    <color name="colorfb">#4267B2</color>
+    <color name="colorGoogle">#D54937</color>
+    <color name="colorgreen">#0ed145</color>
+    <color name="red">#F44336</color>
+    <color name="cam">#FF9800</color>
+    <color name="tentruyen">#1E5369</color>
+</resources>

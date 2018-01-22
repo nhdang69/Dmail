@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1064379788035",
+    "project_id": "firebase-lightnovel"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064379788035:android:4aedc2b183db0d08",
+        "android_client_info": {
+          "package_name": "com.example.diorous.lightnovel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064379788035-bcq6ii89sr42dr945hevhoqd5epl41p0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1064379788035-553d80frnreineut2t7fk1ghqa7fv1s5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diorous.lightnovel",
+            "certificate_hash": "3cec5d0702ea8b418a41193a65e8caaf386ba2bf"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGRC6rx-JGChyVGo_6AcJtXUc5rwHGUTk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
